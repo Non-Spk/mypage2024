@@ -1,53 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal site</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <img src="./profile.jpg" alt="this is non image" style="width: 20%;height: auto;">
-    <h1>Supakpong Pirabunjongrat</h1>
-    <a href="https://www.thaiunion.com/en/home">ไปยังเว็บไซต์ของหน่วยงาน</a>
-    <br>
-    <a href="./contact.html">Contact</a>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <div>
+          <h1>Supakpong Pirabunjongrat</h1>
+          <p>Full Stack Developer</p>
+          <div class="contact-info">
+            <p>
+              Email:
+              <a href="mailto:s.pirabunjongrat@gmail.com"
+                >s.pirabunjongrat@gmail.com</a
+              >
+            </p>
+            <p>Phone: 0614944332</p>
+            <p>Line: 0614944332</p>
+            <p>
+              Address: 62 Soi Nonthaburi 48, Tambon Tha Sai, Amphoe Mueang,
+              Nonthaburi 11000
+            </p>
+            <p>
+              Github:
+              <a href="https://github.com/Non-Spk">github.com/Non-Spk</a>
+            </p>
+          </div>
+        </div>
+        <img src="./pictures/profile.jpg" alt="Supakpong Pirabunjongrat" />
+      </div>
 
-    <h3>ประสบการณ์การทำงาน</h3>
-    <!-- <ul>
-        <li>2012 - 2013 NEXTEC</li>
-        <li>2010 Ericsson GmbH Eurolab</li>
-        <li>2015 - 2017 CP Retaillink</li>
-        <li>2015 - present PIM</li>
-    </ul> -->
+      <div>
+        <h3>About</h3>
+        <p>
+          Full Stack Developer with a certificate in Full-Stack Development and
+          a Bachelor's Degree in Engineering. Passionate about creating
+          intuitive web applications using modern technologies like React, and
+          Node.js. Experienced in overseeing engineering projects and
+          implementing innovative solutions.
+        </p>
+      </div>
 
-    <!-- #Todo ทำให้ List นำเสนอออกมาเป็น Table -->
-    <table>
-        <thead>
-            <tr>
-                <th>Year</th>
-                <th>Work Place</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>2012 - 2013</td>
-            <td>NEXTEC</td>
-        </tr>
-        <tr>
-            <td>2010</td>
-            <td>Ericsson GmbH Eurolab</td>
-        </tr>
-        <tr>
-            <td>2015 - 2017</td>
-            <td>CP Retaillink</td>
-        </tr>
-        <tr>
-            <td>2015 - present</td>
-            <td>PIM</td>
-        </tr>
-    </table>
-</body>
+      <div class="interests">
+        <h3>Interests</h3>
+        <div class="interests-card">
+          <div>
+            <img src="./pictures/book_icon_158035.svg" alt="Reading" />
+            <p>Reading</p>
+          </div>
+          <div>
+            <img
+              src="./pictures/sport_run_running_icon_195063.svg"
+              alt="Running"
+            />
+            <p>Running</p>
+          </div>
+          <div>
+            <img
+              src="./pictures/rope_equipment_sport_gym_fitness_icon_224809.svg"
+              alt="Jumping Rope"
+            />
+            <p>Jumping Rope</p>
+          </div>
+          <div>
+            <img
+              src="./pictures/web_development_coding_code_browse_browser_icon-icons.com_59980.svg"
+              alt="Coding"
+            />
+            <p>Coding</p>
+          </div>
+          <div>
+            <img
+              src="./pictures/e_learning_monitor_icon_187544.svg"
+              alt="Learning"
+            />
+            <p>Learning</p>
+          </div>
+          <div>
+            <img
+              src="./pictures/basketball-black-ball_icon-icons.com_57934.svg"
+              alt="Basketball"
+            />
+            <p>Basketball</p>
+          </div>
+        </div>
+      </div>
 
+      <div>
+        <h3>Skills</h3>
+        <div class="skills-grid">
+          <div class="skills-category">
+            <h4>Languages</h4>
+            <p>HTML, CSS, JavaScript, Python, Node.js</p>
+          </div>
+          <div class="skills-category">
+            <h4>Frameworks</h4>
+            <p>React, Express</p>
+          </div>
+          <div class="skills-category">
+            <h4>CSS Frameworks</h4>
+            <p>Bootstrap, Tailwind CSS</p>
+          </div>
+          <div class="skills-category">
+            <h4>Databases</h4>
+            <p>MySQL, PostgreSQL</p>
+          </div>
+          <div class="skills-category">
+            <h4>Version Control</h4>
+            <p>Git, Github</p>
+          </div>
+          <div class="skills-category">
+            <h4>Design Tools</h4>
+            <p>Figma, drawIO, LucidChart</p>
+          </div>
+          <div class="skills-category">
+            <h4>Analytics Tools</h4>
+            <p>PowerBI, Excel Power Query/Pivot Table</p>
+          </div>
+          <div class="skills-category">
+            <h4>Other Tools</h4>
+            <p>SAP PM, AutoCAD, SolidWork</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects">
+        <h3>Projects</h3>
+        <div class="project">
+          <h4>YGODECK</h4>
+          <p>Web Application for Building Yu-Gi-Oh! Card Decks</p>
+          <p>
+            Developed an intuitive web app for customizing Yu-Gi-Oh! card decks
+            using React.js and Chakra UI, with YGOProDeck API integration.
+          </p>
+          <a href="https://github.com/Non-Spk/bootcamp-ygodeck">View Project</a>
+        </div>
+        <div class="project">
+          <h4>PokedexApp</h4>
+          <p>Web Application for Search Pokedex</p>
+          <p>
+            Created a user-friendly web app for exploring Pokémon using the
+            Pokedex database, built with Vue.js and TypeScript.
+          </p>
+          <a href="https://github.com/Non-Spk/bootcamp-PokedexApp"
+            >View Project</a
+          >
+        </div>
+        <div class="project">
+          <h4>TodoList</h4>
+          <p>Web Application for To Do List</p>
+          <p>
+            Created a basic to-do list app with HTML, CSS, and JavaScript,
+            showcasing essential web development skills.
+          </p>
+          <a href="https://github.com/Non-Spk/bootcamp-TODOLIST"
+            >View Project</a
+          >
+        </div>
+        <div class="project">
+          <h4>Airbnb Clone</h4>
+          <p>Airbnb Single Page Clone</p>
+          <p>
+            Built a single-page Airbnb clone for educational purposes using HTML
+            and CSS.
+          </p>
+          <a href="https://github.com/Non-Spk/bootcamp-AirbnbClone"
+            >View Project</a
+          >
+        </div>
+      </div>
+
+      <div class="experience">
+        <h3>Experience</h3>
+        <div class="job">
+          <h4>Supervisor Office Engineer & Maintenance</h4>
+          <p>Thai Union Manufacturing · Thailand</p>
+          <ul>
+            <li>
+              Oversaw facility renovations and automated machinery
+              implementation, increasing production capacity by 25%.
+            </li>
+            <li>
+              Revamped the Master Data structure in SAP PM Module, improving
+              efficiency and accuracy.
+            </li>
+            <li>
+              Served as Key User for SAP PM Module, providing quick
+              troubleshooting and effective communication for system issues.
+            </li>
+            <li>
+              Implemented an inventory management system with Excel VBA Form,
+              reducing spare parts costs by 40%.
+            </li>
+            <li>
+              Designed and implemented an IoT system with Python and MSSQL to
+              monitor machine performance (OEE) and energy consumption.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <h3>Education</h3>
+        <div>
+          <h4>Full-Stack Development Certificate</h4>
+          <p>WeStride | May '21 - Present</p>
+        </div>
+        <div>
+          <h4>Bachelor's Degree in Engineering</h4>
+          <p>Kasetsart University | Graduated Apr '21 | GPA: 3.25</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
